@@ -1,0 +1,28 @@
+name: Error en un exercici / Error en un ejercicio
+description: Comunica un error en el material de Sokoke.
+title: "[Error] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Aquest informe és públic. Evita incloure dades personals, apunts originals o captures que els continguin.
+        Este informe es público. Evita incluir datos personales, apuntes originales o capturas que los contengan.
+  - type: input
+    id: pagina
+    attributes:
+      label: Enllaç de la pàgina / Enlace de la página
+      placeholder: https://xpaya.github.io/SokokeStudy/…
+    validations:
+      required: true
+  - type: input
+    id: exercici
+    attributes:
+      label: Exercici / Ejercicio
+      description: Indica el full i el número, si escau. / Indica la hoja y el número, si corresponde.
+  - type: textarea
+    id: error
+    attributes:
+      label: Què cal corregir? / ¿Qué hay que corregir?
+      description: Descriu l’error i, si ho saps, proposa una correcció. / Describe el error y, si la sabes, propón una corrección.
+    validations:
+      required: true
