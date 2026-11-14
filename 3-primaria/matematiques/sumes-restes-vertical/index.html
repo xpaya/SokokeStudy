@@ -1,0 +1,236 @@
+<!DOCTYPE html><html lang="ca" data-astro-cid-alps7oqd><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/SokokeStudy/icons/sokoke.svg"><link rel="manifest" href="/SokokeStudy/manifest.webmanifest"><title data-t-tema="Tema 2. Sumes i restes en vertical" data-t-sec="sec_explicacion">Tema 2. Sumes i restes en vertical · Explicació · Sokoke by XPayà</title><link rel="stylesheet" href="/SokokeStudy/_astro/Estudio.BSYFyxQ1.css"><link rel="stylesheet" href="/SokokeStudy/_astro/_..C1w4d857.css"><style>.vertical[data-astro-cid-f3n44zei]{margin-block:var(--space-2);font-variant-numeric:tabular-nums}.rejilla[data-astro-cid-f3n44zei]{width:max-content;max-width:100%;display:grid}.fila[data-astro-cid-f3n44zei]{grid-template-columns:repeat(var(--cols), 2.5rem);display:grid}.celda[data-astro-cid-f3n44zei]{box-sizing:border-box;width:2.5rem;height:2.5rem;font:inherit;font-size:1.5rem;font-weight:var(--font-weight-bold);text-align:center;color:inherit;justify-content:center;align-items:center;display:flex}input[data-astro-cid-f3n44zei].celda{background:var(--color-surface);border:2px solid var(--color-line);border-radius:0;padding:0}input[data-astro-cid-f3n44zei].celda:focus-visible{outline:3px solid var(--color-brand);outline-offset:1px}.signo[data-astro-cid-f3n44zei]{font-size:1.5rem;font-weight:var(--font-weight-bold);justify-content:center;align-items:center;display:flex}.ayuda-celda[data-astro-cid-f3n44zei]{height:1.75rem;color:var(--color-text-muted);font-size:1rem;font-weight:400}input[data-astro-cid-f3n44zei].ayuda-celda{border-style:dashed}.etiqueta[data-astro-cid-f3n44zei]{margin:0 0 var(--space-1);color:var(--color-text-muted);font-size:.875rem}.resultado[data-astro-cid-f3n44zei]{border-top:3px solid var(--color-text);margin-block-start:var(--space-1);padding-block-start:var(--space-1)}.casita[data-astro-cid-f3n44zei]{grid-template-columns:max-content max-content;grid-template-areas:"dividendo divisor""dividendo cociente";width:max-content;max-width:100%;display:grid}.dividendo[data-astro-cid-f3n44zei]{border-inline-end:3px solid var(--color-text);grid-area:dividendo;padding-inline-end:var(--space-2);display:flex}.divisor[data-astro-cid-f3n44zei]{border-block-end:3px solid var(--color-text);grid-area:divisor;padding-inline-start:var(--space-2);display:flex}.cociente[data-astro-cid-f3n44zei]{grid-area:cociente;padding-block-start:var(--space-1);padding-inline-start:var(--space-2);display:flex}.resto[data-astro-cid-f3n44zei]{align-items:center;gap:var(--space-2);margin-block:var(--space-2) 0;display:flex}.pasos[data-astro-cid-f3n44zei]{margin-block:var(--space-1);padding-inline-start:var(--space-6)}@media (width<=30rem){.fila[data-astro-cid-f3n44zei]{grid-template-columns:repeat(var(--cols), 2.125rem)}.celda[data-astro-cid-f3n44zei]{width:2.125rem;height:2.25rem}}
+</style></head><body data-astro-cid-alps7oqd><span class="felino-fondo" aria-hidden="true" data-astro-cid-alps7oqd><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54">
+  <!-- Sokoke by XPayà · facetado, cortes reales en evenodd. -->
+  <path fill="currentColor" fill-rule="evenodd" d="M11 35 L10 17 Q10 8 15 7 Q20 7 24 20 L40 20 Q44 7 49 7 Q54 8 54 17 L53 35 Q51 42 46 46 L32 53 L18 46 Q13 42 11 35 Z M24.5 21.5 L26.3 21.5 L32 29.8 L37.7 21.5 L39.5 21.5 L33.2 30.6 L51.5 34 L51.2 35.5 L32.8 32.1 L32.8 51.2 L31.2 51.2 L31.2 32.1 L12.8 35.5 L12.5 34 L30.8 30.6 Z"/>
+</svg>
+</span><a class="skip" href="#contenido" data-i18n="saltar" data-astro-cid-alps7oqd>Salta al contingut</a><header class="xpaya-grid" data-astro-cid-alps7oqd><div class="wrap cabecera xpaya-actions" data-astro-cid-alps7oqd><a class="marca" href="/SokokeStudy/" data-astro-cid-alps7oqd><span aria-hidden="true" data-astro-cid-alps7oqd><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54">
+  <!-- Sokoke by XPayà · sólido para tamaños pequeños y avatar. -->
+  <path fill="currentColor" d="M11 35 L10 17 Q10 8 15 7 Q20 7 24 20 L40 20 Q44 7 49 7 Q54 8 54 17 L53 35 Q51 42 46 46 L32 53 L18 46 Q13 42 11 35 Z"/>
+</svg>
+</span> Sokoke</a><div class="acciones" data-astro-cid-alps7oqd><div class="idioma" role="group" aria-label="Idioma de la interfície" data-i18n-aria="idioma_grupo" data-astro-cid-alps7oqd><button class="xp ghost" type="button" data-idioma="ca" lang="ca" aria-pressed="true" data-i18n="idioma_ca" data-astro-cid-alps7oqd>Català</button><button class="xp ghost" type="button" data-idioma="es" lang="es" aria-pressed="false" data-i18n="idioma_es" data-astro-cid-alps7oqd>Castellano</button></div><button class="xp ghost" type="button" id="tema" data-astro-cid-alps7oqd>Tema fosc</button></div></div></header><main class="wrap" id="contenido" tabindex="-1" data-astro-cid-alps7oqd><nav aria-label="Ruta d’estudi" data-i18n-aria="ruta_estudio" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz><a href="/SokokeStudy/" data-i18n="cursos" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz>Cursos</a> /<a href="/SokokeStudy/3-primaria/" data-astro-cid-vx4ayuqz>3.º de Primaria</a> /<a href="/SokokeStudy/3-primaria/matematiques/" data-astro-cid-vx4ayuqz>Matemàtiques</a> /<span aria-current="location" data-astro-cid-vx4ayuqz>Tema 2. Sumes i restes en vertical</span></nav><h1 data-astro-cid-vx4ayuqz>Tema 2. Sumes i restes en vertical</h1><div class="tema" data-astro-cid-vx4ayuqz><nav class="vistas" aria-label="Vistes del tema" data-i18n-aria="vistas_tema" data-astro-cid-bihilqph><ul data-astro-cid-bihilqph><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/" aria-current="page" data-i18n="sec_explicacion" class="astro-bihilqph" data-astro-cid-bihilqph>Explicació</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/ejercicios/" data-i18n="sec_ejercicios" class="astro-bihilqph" data-astro-cid-bihilqph>Exercicis</a><ul class="hojas" data-astro-cid-bihilqph><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/ejercicios/hoja-1/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:1}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 1</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/ejercicios/hoja-2/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:2}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 2</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/ejercicios/hoja-3/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:3}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 3</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/ejercicios/hoja-4/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:4}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 4</a></li></ul></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/soluciones/" data-i18n="sec_soluciones" class="astro-bihilqph" data-astro-cid-bihilqph>Solucions</a><ul class="hojas" data-astro-cid-bihilqph><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/soluciones/hoja-1/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:1}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 1</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/soluciones/hoja-2/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:2}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 2</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/soluciones/hoja-3/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:3}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 3</a></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/soluciones/hoja-4/" data-i18n="hoja" data-i18n-params="{&quot;n&quot;:4}" class="astro-bihilqph" data-astro-cid-bihilqph>Full 4</a></li></ul></li><li data-astro-cid-bihilqph><a href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/resultados/" data-i18n="sec_resultados" class="astro-bihilqph" data-astro-cid-bihilqph>Resultats</a></li></ul></nav><div class="contenido" data-astro-cid-vx4ayuqz><h2 data-i18n="objetivos" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz>Objectius</h2><ul data-astro-cid-vx4ayuqz><li data-astro-cid-vx4ayuqz>Sumar nombres de fins a cinc xifres en vertical, amb llevades i sense.</li><li data-astro-cid-vx4ayuqz>Restar nombres en vertical, demanant a la columna de l’esquerra quan cal i tractant els zeros del mig.</li><li data-astro-cid-vx4ayuqz>Comprovar una resta amb una suma.</li><li data-astro-cid-vx4ayuqz>Triar la suma o la resta en un problema i resoldre’l en vertical.</li></ul><div class="cuerpo" data-astro-cid-vx4ayuqz><p>Aquest tema t’ensenya a <strong>sumar i restar en vertical</strong>, és a dir, amb els nombres escrits en columnes. És la manera de fer sumes i restes amb nombres grans sense equivocar-te. Tens exercicis amb llevades, sense llevades i amb zeros al mig.</p>
+<h2>Posar els nombres en columnes</h2>
+<p>Escrivim cada nombre sota l’altre. Les unitats han d’estar sota les unitats, les desenes sota les desenes i les centenes sota les centenes. Si no queden alineades, el resultat serà incorrecte.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>C</th>
+<th>D</th>
+<th>U</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>3</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>+</td>
+<td>2</td>
+<td>7</td>
+<td>5</td>
+</tr>
+</tbody></table>
+<p>Sempre comencem a calcular per la <strong>dreta</strong>, per les unitats.</p>
+<h2>Sumar sense llevades</h2>
+<p>Quan cap columna passa de 9, només cal sumar cada columna.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>C</th>
+<th>D</th>
+<th>U</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>3</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>+</td>
+<td>2</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<tr>
+<td>=</td>
+<td>5</td>
+<td>5</td>
+<td>8</td>
+</tr>
+</tbody></table>
+<p>Unitats: 2 + 6 = 8. Desenes: 4 + 1 = 5. Centenes: 3 + 2 = 5. El resultat és 558.</p>
+<h2>Sumar amb llevades («me’n porto»)</h2>
+<p>Si una columna dona 10 o més, escrivim només la xifra de les unitats i ens portem la resta a la columna de l’esquerra.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>C</th>
+<th>D</th>
+<th>U</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>me’n porto</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>3</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>+</td>
+<td>2</td>
+<td>7</td>
+<td>5</td>
+</tr>
+<tr>
+<td>=</td>
+<td>6</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody></table>
+<p>Unitats: 8 + 5 = 13, escric 3 i me’n porto 1. Desenes: 4 + 7 + 1 = 12, escric 2 i me’n porto 1. Centenes: 3 + 2 + 1 = 6. El resultat és 623. Si hi ha tres sumands o més, sumes tots els de la columna i també el que t’has portat.</p>
+<h2>Restar sense llevades</h2>
+<p>A dalt posem el nombre més gran (<strong>minuend</strong>) i a sota el que traiem (<strong>sustraend</strong>). Restem columna per columna.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>C</th>
+<th>D</th>
+<th>U</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+</tr>
+<tr>
+<td>−</td>
+<td>3</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>=</td>
+<td>3</td>
+<td>2</td>
+<td>6</td>
+</tr>
+</tbody></table>
+<p>Unitats: 8 − 2 = 6. Desenes: 7 − 5 = 2. Centenes: 6 − 3 = 3. El resultat és 326.</p>
+<h2>Restar amb llevades («demano»)</h2>
+<p>Si la xifra de dalt és més petita que la de baix, no podem restar. Demanem una unitat a la columna de l’esquerra. Aquesta unitat val 10 a la columna on som.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>C</th>
+<th>D</th>
+<th>U</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>4</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>−</td>
+<td>1</td>
+<td>8</td>
+<td>7</td>
+</tr>
+<tr>
+<td>=</td>
+<td>2</td>
+<td>6</td>
+<td>5</td>
+</tr>
+</tbody></table>
+<p>Unitats: 2 no pot treure 7; demano una desena: 12 − 7 = 5. Desenes: ara hi ha 4 (n’he donat una), i 4 no pot treure 8; demano una centena: 14 − 8 = 6. Centenes: ara hi ha 3, i 3 − 1 = 2. El resultat és 265.</p>
+<h2>Zeros al mig</h2>
+<p>Un zero no pot donar una unitat. Per això hem de demanar més lluny.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>C</th>
+<th>D</th>
+<th>U</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>−</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>=</td>
+<td>2</td>
+<td>9</td>
+<td>9</td>
+</tr>
+</tbody></table>
+<p>300 − 1: les unitats no poden treure 1 i les desenes són 0. Demanem a les centenes. El 3 passa a 2, les desenes es queden en 9 i les unitats valen 10. Així 10 − 1 = 9, 9 i 2. El resultat és 299. Una suma pot tenir zeros al mig sense cap problema: 305 + 498 = 803.</p>
+<h2>Comprovar una resta amb una suma</h2>
+<p>Si has fet una resta, suma el resultat i el sustraend. Has d’obtenir el minuend.</p>
+<table>
+<thead>
+<tr>
+<th>Resta</th>
+<th>Comprovació</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>452 − 187 = 265</td>
+<td>265 + 187 = 452</td>
+</tr>
+</tbody></table>
+<p>Si la suma no et dona el nombre de dalt, hi ha un error a la resta.</p>
+<h2>Quina operació faig?</h2>
+<p>A un problema, primer llegeix-lo i pensa què passa.</p>
+<table>
+<thead>
+<tr>
+<th>Si el problema diu…</th>
+<th>Fem…</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ajuntar, afegir, en total, entre tots</td>
+<td>una suma</td>
+</tr>
+<tr>
+<td>treure, regalar, què queda, què falta</td>
+<td>una resta</td>
+</tr>
+<tr>
+<td>quant més o quant menys té un que un altre</td>
+<td>una resta</td>
+</tr>
+</tbody></table>
+<p>Després escriu l’operació en vertical i resol-la. Al final, mira si el resultat té sentit.</p>
+<h2>Com estudiar-ho</h2>
+<p>Fes una fitxa de repàs amb una suma amb llevades i una resta amb llevades, cada una amb els passos escrits. Afegeix una resta amb un zero al mig i la seva comprovació amb una suma.</p></div><h2 data-i18n="conceptos" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz>Conceptes</h2><dl data-astro-cid-vx4ayuqz><dt data-astro-cid-vx4ayuqz>Sumar en vertical</dt><dd data-astro-cid-vx4ayuqz>Escrivim els nombres un sota l’altre amb les unitats sota les unitats, les desenes sota les desenes i les centenes sota les centenes. Posem el signe + i una ratlla. Sumem columna per columna, començant per la dreta, per les unitats.</dd><dt data-astro-cid-vx4ayuqz>Llevades a la suma</dt><dd data-astro-cid-vx4ayuqz>Quan una columna suma 10 o més, escrivim només la xifra de les unitats i ens portem la resta a la columna següent. Per exemple, 13 unitats són 1 desena i 3 unitats: escrivim 3 i ens portem 1.</dd><dt data-astro-cid-vx4ayuqz>Restar en vertical</dt><dd data-astro-cid-vx4ayuqz>Posem a dalt el nombre més gran (minuend) i a sota el que traiem (sustraend), amb les xifres ben alineades. Restem columna per columna, començant per les unitats.</dd><dt data-astro-cid-vx4ayuqz>Llevades a la resta</dt><dd data-astro-cid-vx4ayuqz>Si en una columna la xifra de dalt és més petita que la de baix, demanem una unitat a la columna de l’esquerra. Aquesta unitat val 10 a la columna on som, i la columna de qui la demanem es queda amb una menys.</dd><dt data-astro-cid-vx4ayuqz>Zeros al mig</dt><dd data-astro-cid-vx4ayuqz>Un zero no pot donar una unitat. Per fer 300 − 1 demanem a les centenes: 3 passa a 2, les desenes es queden en 9 i les unitats valen 10. Així, 10 − 1 = 9, 9 − 0 = 9 i 2 − 0 = 2: 299.</dd><dt data-astro-cid-vx4ayuqz>Comprovar una resta</dt><dd data-astro-cid-vx4ayuqz>Per saber si una resta està bé sumem el resultat i el sustraend. Hem d’obtenir el minuend. Per exemple, 452 − 187 = 265, i 265 + 187 = 452.</dd><dt data-astro-cid-vx4ayuqz>Quina operació?</dt><dd data-astro-cid-vx4ayuqz>Fem una suma quan ajuntem, afegim o busquem el total. Fem una resta quan traiem, quan volem saber què queda, què falta o quant més o menys té un nombre que un altre.</dd></dl><h2 data-i18n="vocabulario" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz>Vocabulari</h2><dl data-astro-cid-vx4ayuqz><dt data-astro-cid-vx4ayuqz>Sumand</dt><dd data-astro-cid-vx4ayuqz>Cada un dels nombres que se sumen.</dd><dt data-astro-cid-vx4ayuqz>Minuend</dt><dd data-astro-cid-vx4ayuqz>El nombre del qual traiem alguna cosa en una resta (va a dalt).</dd><dt data-astro-cid-vx4ayuqz>Sustraend</dt><dd data-astro-cid-vx4ayuqz>El nombre que traiem en una resta (va a sota).</dd><dt data-astro-cid-vx4ayuqz>Llevada</dt><dd data-astro-cid-vx4ayuqz>La unitat que ens portem a la suma o que demanem a la resta a la columna del costat.</dd><dt data-astro-cid-vx4ayuqz>Columna</dt><dd data-astro-cid-vx4ayuqz>Fila vertical de xifres d’un mateix lloc: unitats, desenes, centenes…</dd></dl><h2 data-i18n="ejemplos" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz>Exemples</h2><h3 data-astro-cid-vx4ayuqz>Suma amb llevades</h3><p data-astro-cid-vx4ayuqz>Calculem 348 + 275. Unitats: 8 + 5 = 13, escric 3 i me’n porto 1. Desenes: 4 + 7 + 1 = 12, escric 2 i me’n porto 1. Centenes: 3 + 2 + 1 = 6. Resultat: 623.</p><h3 data-astro-cid-vx4ayuqz>Resta amb llevades</h3><p data-astro-cid-vx4ayuqz>Calculem 452 − 187. Unitats: 2 no pot treure 7; demano una desena i fem 12 − 7 = 5. Desenes: ara hi ha 4, i 4 no pot treure 8; demano una centena i fem 14 − 8 = 6. Centenes: ara hi ha 3, i 3 − 1 = 2. Resultat: 265.</p><h3 data-astro-cid-vx4ayuqz>Resta amb zeros</h3><p data-astro-cid-vx4ayuqz>Calculem 300 − 1. A les unitats, 0 no pot treure 1, però les desenes també són 0. Demano a les centenes: 3 passa a 2, les desenes es queden en 9 i les unitats valen 10. Unitats: 10 − 1 = 9. Desenes: 9. Centenes: 2. Resultat: 299.</p><h3 data-astro-cid-vx4ayuqz>Problema</h3><p data-astro-cid-vx4ayuqz>A l’autobús hi ha 56 places i 38 estan ocupades. Quantes places lliures? Busquem què queda, per tant fem una resta: 56 − 38. Unitats: 6 no pot treure 8; demano una desena i fem 16 − 8 = 8. Desenes: ara hi ha 4, i 4 − 3 = 1. Resultat: 18 places lliures.</p><h2 data-i18n="resumen" class="astro-vx4ayuqz" data-astro-cid-vx4ayuqz>Resum</h2><p data-astro-cid-vx4ayuqz>Escriu les xifres ben alineades i comença sempre per la dreta. A la suma, si passes de 9, porta’t la desena. A la resta, si no pots treure, demana a l’esquerra. Si hi ha un zero, demana més lluny. Comprova la resta amb una suma.</p><p data-astro-cid-vx4ayuqz><a class="xp" href="/SokokeStudy/3-primaria/matematiques/sumes-restes-vertical/ejercicios/" data-i18n="ir_ejercicios" data-astro-cid-vx4ayuqz>Ves als exercicis</a></p><nav class="vecinos" aria-label="Temes veïns" data-i18n-aria="temas_vecinos" data-astro-cid-vx4ayuqz><a href="/SokokeStudy/3-primaria/matematiques/nombres-3-5-xifres/" data-astro-cid-vx4ayuqz>← Tema 1. Nombres de tres a cinc xifres</a></nav></div></div></main><footer class="wrap" data-astro-cid-alps7oqd><span data-i18n="pie" class="astro-alps7oqd" data-astro-cid-alps7oqd>Sokoke — un felí d’XPayà</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSe3EwEMnTp_dltriJGOfo6Aparyvcn2PwpLITcdd5e1EayI0g/viewform" data-i18n="informar_error" class="astro-alps7oqd" data-astro-cid-alps7oqd>Informa d’un error</a></footer><script type="module" src="/SokokeStudy/_astro/Estudio.astro_astro_type_script_index_0_lang.xykUsnrO.js"></script></body></html>

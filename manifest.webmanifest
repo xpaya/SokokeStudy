@@ -1,0 +1,13 @@
+{
+  "id": "./",
+  "name": "Sokoke",
+  "short_name": "Sokoke",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#17120f",
+  "icons": [
+    { "src": "icons/sokoke-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/sokoke-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
